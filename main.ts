@@ -1,6 +1,3 @@
-controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
-    sprites.destroyAllSpritesOfKind(SpriteKind.Player)
-})
 controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
     spritePlayer.left = spritePlayer.left - spritePlayer.width
 })
