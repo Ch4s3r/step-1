@@ -1,0 +1,24 @@
+{
+    "name": "step-1-commit-e496c8eae1b1ee670e6c2e948624efdcf7d3070e",
+    "dependencies": {
+        "device": "*",
+        "step-1": "github:ch4s3r/step-1"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.12.46",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
